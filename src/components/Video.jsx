@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { motion, useScroll, useTransform } from "framer-motion";
 
-const Video = () => {;
+const Video = () => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -21,20 +21,20 @@ const Video = () => {;
   
     }, []);
 
-   
-
     
   return (
     <motion.div
-    ref={ref}
-    style={{ scale }}
-      className={`lg:flex lg:flex-row flex-1 gap-4 lg:w-full items-start justify-center py-20 px-3 md:px-6 lg:px-12 scroll transition-transform duration-700 `}
+      ref={ref}
+      style={{ scale }}
+      className={`lg:flex lg:flex-row flex-1 gap-4 lg:w-full items-start justify-center py-20 px-3 md:px-6 lg:px-12 scroll transition-transform duration-200 `}
       data-aos={"zoom-in-up"}
-      data-aos-delay="300"
     >
       <video
-        controls
         autoPlay
+        loop
+        muted
+        playsInline
+        controls
         className="lg:w-full lg:h-[75vh] max-w-full rounded-xl"
         width="620"
       >

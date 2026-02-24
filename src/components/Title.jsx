@@ -13,13 +13,15 @@ const Title = ({ className, text, title, word }) => {
     }, []);
   return (
     <div
-      className={`${className} w-[70%] mt-40 items-center justify-center text-center`}
+      className={`lg:w-[70%] lg:mt-40 mt-20`}
+      data-aos="slide-up"
     >
-      <p className="pb-4" data-aos="slide-up">
-        {text}
-      </p>
-      <h1 className="pb-6 text-7xl" data-aos="slide-up" data-aos-delay="300">
-        {title} <br /> <span className="italic text-5xl">{word}</span>
+      <p className="pb-4 uppercase sm:text-[14px]">{text}</p>
+      <h1
+        className={` ${className} pb-6 lg:text-7xl text-2xl `}
+      >
+        {title}{" "}
+        <span className="italic lg:text-7xl text-2xl ">{word}</span>
       </h1>
     </div>
   );

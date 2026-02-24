@@ -121,3 +121,17 @@ export const aiServices = ["AI Powered Creatives"];
 
 export const marketingServices = ["Marketing Strategy"];
 
+export const stats = [
+  {
+    projects: "People reached through our communication systems",
+    count: "2M+",
+  },
+  {
+    projects: "Projects delivered across the globe",
+    count: "70+",
+  },
+  {
+    projects: "Public, private, and development experience",
+    count: "12 Sectors",
+  },
+];

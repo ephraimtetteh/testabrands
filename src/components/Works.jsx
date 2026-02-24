@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const Works = ({image, className, name, company}) => {
+const Works = ({image, className, name, company, description, color}) => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -14,7 +14,7 @@ const Works = ({image, className, name, company}) => {
   return (
     <div className={`${className} relative w-full overflow-hidden`}>
       {/* Image */}
-      <div className="w-full">{image}</div>
+      <div className="w-full" onContextMenu={(e) => e.preventDefault()}>{image}</div>
 
       {/* Dark Overlay */}
       {/* <div className="absolute inset-0 bg-black/40"></div> */}
@@ -32,12 +32,13 @@ const Works = ({image, className, name, company}) => {
         <p className="text-lg md:text-xl max-w-xl">{name}</p>
       </div> */}
       <div
-        className="absolute bottom-0 left-0 bg-linear-to-t from-black/80 to-transparent p-12 w-full text-left"
+        className="absolute bottom-0 left-0 bg-linear-to-t from-black/80 to-transparent p-12 w-full text-left overflow-hidden"
         data-aos="slide-up"
         data-aos-delay="300"
       >
         <h3 className="text-5xl font-medium text-white">{company}</h3>
         <p className="text-sm text-white/80">{name}</p>
+        <p className={`hidden hover:block bg-${color}`}>{description}</p>
       </div>
     </div>
   );

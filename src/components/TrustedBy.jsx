@@ -4,13 +4,13 @@ import { companyLogos } from "../lib/constants/data";
 const TrustedBy = () => {
   return (
     <div>
-      <h3 className="text-center justify-center items-center py-20 pb-40 text-5xl max-w-6xl mx-auto text-gray-700 font-normal px-6">
+      <h3 className="text-center justify-center items-center lg:py-30 lg:pb-50 lg:text-5xl text-2xl max-w-6xl mx-auto text-gray-900 font-normal px-6">
         We help the world's leading brands create standout ads and campaigns at
         speed—from concept to execution to results.
       </h3>
       <>
         <div className="overflow-hidden w-full relative max-w-9xl mx-auto select-none pb-40">
-          <p className="mx-auto items-center justify-center text-center uppercase pb-20">trusted by the world’s BIGGEST brands</p>
+          <p className="mx-auto items-center justify-center text-center uppercase pb-25">trusted by the world’s BIGGEST brands</p>
           <div className="absolute left-0 top-0 h-full w-20 z-10 pointer-events-none bg-linear-to-r from-white to-transparent" />
           <div
             className="marquee-inner flex will-change-transform min-w-[200%]"

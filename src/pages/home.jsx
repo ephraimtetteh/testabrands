@@ -5,18 +5,26 @@ import TrustedBy from '../components/TrustedBy';
 import { works } from '../assets/assets';
 import Works from '../components/Works';
 import Button from '../components/Button';
+import Flex from '../components/Flex';
+import ServiceSlide from '../components/ServiceSlide';
+import BrandUse from '../components/BrandUse';
+import Process from '../components/Process';
 
 const Home = () => {
   return (
-    <div className="">
-      <div className="flex flex-col items-center justify-center px-3 md:px-6 lg:px-12">
-        <Title
-          title={"Testa. Creative Powerhouse."}
-          word={"We Design Brands People Remember."}
-          text={
-            "Testa is a modern creative–strategy firm helping African institutions, brands, and programmes turn complexity into clarity. We design systems—brand systems, communication systems, digital systems—that move people and deliver measurable impact. "
-          }
-        />
+    <div className="overflow-hidden">
+      <div className="flex flex-col items-center justify-center px-3 lg:px-12">
+        <div className='flex items-center justify-center text-center'>
+          <Title
+            title={"Testa. Creative Powerhouse."}
+            word={"We Design Brands People Remember."}
+            text={
+              "Testa is a modern creative–strategy firm helping African institutions, brands, and programmes turn complexity into clarity. We design systems—brand systems, communication systems, digital systems—that move people and deliver measurable impact. "
+              
+            }
+            className={'font-medium'}
+          />
+        </div>
         <Button text={"Start a Project"} />
       </div>
       <Video />
@@ -30,6 +38,7 @@ const Home = () => {
                 src={work.image}
                 alt=""
                 className="w-full h-240 object-cover"
+                draggable="false"
               />
             }
             name={work.name}
@@ -37,6 +46,10 @@ const Home = () => {
           />
         ))}
       </div>
+      <Flex />
+      <ServiceSlide />
+      <BrandUse />
+      <Process />
     </div>
   );
 }
