@@ -37,7 +37,7 @@ const Home = () => {
               <img
                 src={work.image}
                 alt=""
-                className="w-full h-240 object-cover"
+                className="w-full lg:h-200 object-cover"
                 draggable="false"
               />
             }

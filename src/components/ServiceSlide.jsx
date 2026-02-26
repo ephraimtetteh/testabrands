@@ -16,7 +16,7 @@ const ServiceSlide = () => {
         />
       </div>
       <div
-        className="overflow-hidden w-full relative mx-auto py-20"
+        className="overflow-hidden w-full relative mx-auto lg:py-20"
         onMouseEnter={() => setStopScroll(true)}
         onMouseLeave={() => setStopScroll(false)}
       >
@@ -32,7 +32,7 @@ const ServiceSlide = () => {
             {[...cardsData, ...cardsData].map((card, index) => (
               <div
                 key={index}
-                className=" w-150 mx-2 h-200 relative group hover:scale-90 transition-all duration-300"
+                className="  w-50 h-70 lg:w-150 mx-2 lg:h-200 relative group hover:scale-90 transition-all duration-300"
               >
                 <img
                   src={card.image}

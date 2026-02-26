@@ -86,7 +86,7 @@ const Footer = () => {
             <div className="flex flex-row gap-10">
               <div className="">
                 <a href={"/"} className="flex items-center gap-3">
-                  <h4 className="text-[20px] py-1">Main</h4>
+                  <h4 className="lg:text-[20px] py-1">Main</h4>
                   <ArrowUpRight />
                 </a>
                 {navLinks.map((item) => (
@@ -102,7 +102,7 @@ const Footer = () => {
               <div className="flex flex-col gap-10 z-10">
                 <div>
                   <a href={"/"} className="flex items-center gap-3">
-                    <h4 className="text-[20px] py-1">AI Services</h4>
+                    <h4 className="lg:text-[20px] py-1">AI Services</h4>
                     <ArrowUpRight />
                   </a>
                   {aiServices.map((item) => (
@@ -117,7 +117,7 @@ const Footer = () => {
 
                 <div>
                   <a href={"/"} className="flex items-center gap-3">
-                    <h4 className="text-[20px] py-1">Marketing Services</h4>
+                    <h4 className="lg:text-[20px] py-1">Marketing Services</h4>
                     <ArrowUpRight />
                   </a>
                   {marketingServices.map((item) => (

@@ -24,7 +24,7 @@ const BrandUse = () => {
           </div>
         ))
       } */}
-      <div className="flex flex-col items-start justify-start text-start px-3">
+      <div className="text-start items-start justify-start lg:px-12 px-3">
         <Title
           title={"Lorem ipsum dolor sit amet, consectetur adipisicing."}
           text={"our work"}
@@ -32,7 +32,10 @@ const BrandUse = () => {
         />
       </div>
 
-      <div className="lg:flex lg:flex-row flex-1 gap-6 w-full px-3 md:px-6 lg:px-12" data-aos='slide-up'>
+      <div
+        className="lg:flex lg:flex-row flex-1 gap-6 w-full px-3 md:px-6 lg:px-12 text-white"
+        data-aos="slide-up"
+      >
         <div className="basis-1/2">
           <img
             src={assets.work2}
@@ -62,7 +65,10 @@ const BrandUse = () => {
         </div>
       </div>
 
-      <div className="lg:flex lg:flex-row flex-1 gap-6 w-full px-3 md:px-6 lg:px-12" data-aos='slide-up' data-aos-delay='300'>
+      <div
+        className="lg:flex lg:flex-row flex-1 gap-6 w-full px-3 md:px-6 lg:px-12"
+        data-aos="slide-up"
+      >
         <div className="basis-1/3">
           <img
             src={assets.work3}

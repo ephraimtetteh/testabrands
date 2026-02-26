@@ -18,14 +18,14 @@ const Flex = () => {
   return (
     <div className="bg-black/90 flex flex-col lg:pb-40 pb-10">
       <div className="px-3 md:px-6 lg:px-12">
-        <div className="flex flex-col items-center justify-center text-white pb-10">
+        <div className="flex flex-col items-center justify-center text-center mx-auto text-white pb-10">
           <Title
             title={` Supertalented. Superfast. Super responsive. Work with a global team that’s purposefully`
               
             }
             word={"made to keep up with you."}
             text={" Made to flex"}
-            className={'text-2xl'}
+            className={'text-3xl'}
           />
         </div>
 
@@ -37,7 +37,7 @@ const Flex = () => {
               <img
                 src={work.image}
                 alt=""
-                className="w-full h-200 object-cover rounded-2xl"
+                className="w-full lg:h-200 object-cover rounded-2xl"
                 draggable="false"
               />
             }

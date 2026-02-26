@@ -27,11 +27,11 @@ const Process = () => {
         </div>
       </div>
 
-      <div className="lg:flex lg:flex-row fle-1 items-start w-full h-full gap-8">
+      <div className="lg:flex lg:flex-row fle-1 items-start w-full lg:h-full gap-8">
         <div className="lg:w-[70%] flex flex-col gap-8 py-4">
           <div className="lg:flex gap-8 ">
             <div
-              className={`bg-center bg-no-repeat bg-cover h-115 w-full rounded-2xl relative mb-4`}
+              className={`bg-center bg-no-repeat bg-cover lg:h-115 h-70 w-full rounded-2xl relative mb-4`}
               style={{ backgroundImage: `url(${assets.footerbg})` }}
             >
               <div className="bg-black/5 inset-0 rounded-2xl absolute"></div>
@@ -46,7 +46,7 @@ const Process = () => {
               </div>
             </div>
             <div
-              className={`bg-center bg-no-repeat bg-cover h-115 w-full rounded-2xl relative`}
+              className={`bg-center bg-no-repeat bg-cover lg:h-115 h-70 w-full rounded-2xl relative`}
               style={{ backgroundImage: `url(${assets.footerbg})` }}
             >
               <div className="bg-black/5 inset-0 rounded-2xl absolute"></div>
@@ -63,7 +63,7 @@ const Process = () => {
           </div>
 
           <div
-            className={`bg-center bg-no-repeat bg-cover h-115 w-full rounded-2xl relative`}
+            className={`bg-center bg-no-repeat bg-cover lg:h-115 h-70 w-full rounded-2xl relative`}
             style={{ backgroundImage: `url(${assets.footerbg})` }}
           >
             <div className="bg-black/5 inset-0 rounded-2xl absolute"></div>
@@ -81,7 +81,7 @@ const Process = () => {
         {/* -------------------- reight  */}
         <div className="lg:w-[30%] py-4">
           <div
-            className={`bg-center bg-no-repeat bg-cover w-full h-screen rounded-2xl relative`}
+            className={`bg-center bg-no-repeat bg-cover w-full lg:h-screen h-115 rounded-2xl relative`}
             style={{ backgroundImage: `url(${assets.footerbg})` }}
           >
             <div className="bg-black/5 inset-0 rounded-2xl absolute"></div>

@@ -14,7 +14,7 @@ const Works = ({image, className, name, company, description, color}) => {
   return (
     <div className={`${className} relative w-full overflow-hidden`}>
       {/* Image */}
-      <div className="w-full" onContextMenu={(e) => e.preventDefault()}>{image}</div>
+      <div className="w-full rounded-2xl" onContextMenu={(e) => e.preventDefault()}>{image}</div>
 
       {/* Dark Overlay */}
       {/* <div className="absolute inset-0 bg-black/40"></div> */}
@@ -32,7 +32,7 @@ const Works = ({image, className, name, company, description, color}) => {
         <p className="text-lg md:text-xl max-w-xl">{name}</p>
       </div> */}
       <div
-        className="absolute bottom-0 left-0 bg-linear-to-t from-black/80 to-transparent p-12 w-full text-left overflow-hidden"
+        className="absolute bottom-0 left-0 bg-linear-to-t from-black/80 to-transparent p-12 w-full text-left overflow-hidden "
         data-aos="slide-up"
         data-aos-delay="300"
       >
