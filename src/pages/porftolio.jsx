@@ -66,20 +66,20 @@ const Protfolio = () => {
       </div>
 
       {isOpenModal && selectedWork && (
-        <div className="flex lg:flex-col flex-row items-center justify-center lg:my-30 my-5 fixed inset-0 bg-black/20 lg:max-w-7xl z-50 h-180 mx-auto w-full">
+        <div className="flex lg:flex-col flex-row items-center justify-center lg:my-30 my-5 fixed inset-0 bg-black/50 lg:max-w-7xl z-50 mx-auto w-full">
           <button
             onClick={closeModal}
-            className="absolute top-3 right-3 text-white font-bold hover:text-gray-800 z-100 bg-purple-500 rounded-full p-4"
+            className="absolute top-3 right-3 text-black font-bold hover:text-gray-800 z-100 bg-white rounded-full w-6 h-6"
           >
             ✕
           </button>
-          <div className="lg:flex gap-6 group grow transition-all w-106 h-100 duration-500 hover:w-full ">
+          <div className="lg:flex group grow transition-all duration-500 hover:w-full p-3 gap-2">
             {selectedWork?.projectImage.map((work, index) => (
-              <div className="grid lg:grid-cols-3 w-full" key={index}>
+              <div className="grid w-full hover:w-full duration-500 grop grow transition-all" key={index}>
                 <img
                   src={work}
                   alt=""
-                  className="h-full w-full object-cover object-center"
+                  className="w-full h-56 object-cover gap-2 object-center rounded-lg"
                 />
               </div>
             ))}
