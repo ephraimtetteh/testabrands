@@ -22,38 +22,68 @@ export const assets = {
 
 export const works = [
   {
+    id: 1,
     name: "Awusi Natural Mixed Spice",
     company: "Awusi",
     image: work2,
     color: "#DF5A0C",
     description: "Dedicated creative project manager and customer success",
+    projectImage: [
+      "https://images.unsplash.com/photo-1543269865-0a740d43b90c?q=80&w=800&h=400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1714976326351-0ecf0244f0fc?q=80&w=800&h=400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1736220690062-79e12ca75262?q=80&w=800&h=400&auto=format&fit=crop",
+    ],
   },
   {
+    id: 2,
     name: "Awusi Natural Mixed Spice",
     company: "Awusi",
     image: work3,
     color: "#DF5A0C",
     description: "Dedicated creative project manager and customer success",
+    projectImage: [
+      "https://images.unsplash.com/photo-1543269865-0a740d43b90c?q=80&w=800&h=400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1714976326351-0ecf0244f0fc?q=80&w=800&h=400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1736220690062-79e12ca75262?q=80&w=800&h=400&auto=format&fit=crop",
+    ],
   },
   {
+    id: 3,
     name: "Awusi Natural Mixed Spice",
     company: "Awusi",
     image: work1,
     color: "#DF5A0C",
     description: "Dedicated creative project manager and customer success",
+    projectImage: [
+      "https://images.unsplash.com/photo-1543269865-0a740d43b90c?q=80&w=800&h=400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1714976326351-0ecf0244f0fc?q=80&w=800&h=400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1736220690062-79e12ca75262?q=80&w=800&h=400&auto=format&fit=crop",
+    ],
   },
   {
+    id: 4,
     name: "Awusi Natural Mixed Spice",
     company: "Awusi",
     image: work4,
     color: "#DF5A0C",
     description: "Dedicated creative project manager and customer success",
+    projectImage: [
+      "https://images.unsplash.com/photo-1543269865-0a740d43b90c?q=80&w=800&h=400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1714976326351-0ecf0244f0fc?q=80&w=800&h=400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1736220690062-79e12ca75262?q=80&w=800&h=400&auto=format&fit=crop",
+    ],
   },
   {
+    id: 5,
     name: "Awusi Natural Mixed Spice",
     company: "Awusi",
     image: work5,
     color: "#DF5A0C",
     description: "Dedicated creative project manager and customer success",
+    projectImage: [
+      "https://images.unsplash.com/photo-1543269865-0a740d43b90c?q=80&w=800&h=400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1714976326351-0ecf0244f0fc?q=80&w=800&h=400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1736220690062-79e12ca75262?q=80&w=800&h=400&auto=format&fit=crop",
+    ],
   },
 ];

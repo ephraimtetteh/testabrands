@@ -9,6 +9,7 @@ import Flex from '../components/Flex';
 import ServiceSlide from '../components/ServiceSlide';
 import BrandUse from '../components/BrandUse';
 import Process from '../components/Process';
+import Test from '../components/Test';
 
 const Home = () => {
   return (
@@ -28,6 +29,7 @@ const Home = () => {
         <Button text={"Start a Project"} />
       </div>
       <Video />
+      <Test />
       <TrustedBy />
       <div className="grid md:grid-cols-1 lg:grid-cols-2">
         {works.map((work, index) => (
